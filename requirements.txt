@@ -1,0 +1,13 @@
+pydantic
+langchain
+langchain-core
+langchain-google-genai
+langchain-openai
+langchain-community
+langchain-classic
+langchain-huggingface
+sentence-transformers
+jinja2
+openai
+chromadb
+python-dotenv

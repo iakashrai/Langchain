@@ -1,0 +1,3 @@
+{
+    "template": "Please provide information about the capital city of {country}. Summarize the characteristics of the capital in the following format, within {number_of_words} words. ----\n[Format]\n1. Area\n2. Population\n3. Historical Sites\n4. Regional Products\n\n#Answer:"
+}

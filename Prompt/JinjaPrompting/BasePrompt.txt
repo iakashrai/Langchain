@@ -1,0 +1,7 @@
+Hi, I am {{ user_name }}, 
+- I am aware of technical aspects, i have been prior experience with technical tools.
+
+{% block user_type %}
+{% endblock %}
+{% block skills %}
+{% endblock %}

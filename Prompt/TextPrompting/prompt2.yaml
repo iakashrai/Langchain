@@ -1,0 +1,8 @@
+_type: prompt
+template_format: f-string
+input_variables:
+  - country
+partial_variables:
+  number_of_words: "50"
+template: |
+  Write about {country} using {number_of_words} words.

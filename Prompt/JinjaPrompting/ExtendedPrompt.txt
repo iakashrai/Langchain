@@ -1,0 +1,15 @@
+{% extends "BasePrompt.txt" %}
+
+{% block user_type %}
+{% endblock %}
+
+{% block skills %}
+    {% if user_is_technical == "True" %}
+        # Programming languages I know:
+        {% raw %}
+        {% for language in programming_language %}
+            {{ loop.index }}: {{ language }}
+        {% endfor %}
+        {% endraw %}
+    {% endif %}
+{% endblock %}
